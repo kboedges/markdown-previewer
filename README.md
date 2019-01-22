@@ -1,5 +1,16 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Testing
+
+## Tests to Create
+
+1. A `textarea` element exists with a id of "editor"
+2. An element exists with an id of "preview"
+3. When text is entered into #editor, the #preview element is updated
+4. When markdown is entered into the #editor, the text is rendered as HTML in #preview
+5. When the app loads, the default text in #editor should contain valid markdown that represents at least one of each of the following elements: a header (H1 size), a sub header (H2 size), a link, inline code, a code block, a list item, a blockquote, an image, and bolded text.
+6. When the app loads, the default markdown in #editor should be rendered as HTML in #preview
+
 ## Available Scripts
 
 In the project directory, you can run:
