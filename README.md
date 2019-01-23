@@ -20,8 +20,12 @@ This project will be using the following technology resources:
 - [ECMAScript](https://flaviocopes.com/ecmascript/): Provide easier-to-read intra-language for React components
 - [Redux](https://redux.js.org/): Handle React state
 - [Redux-Saga](https://redux-saga.js.org/): Handle Redux thread processes asynchronously
+- [Jest](https://jestjs.io/docs/en/tutorial-react): Execute and report automated tests for build
+- [Enzyme](https://airbnb.io/enzyme/): Running isolated tests on components without needing to run the entire application or back-end
 
-This project will **not** be using
+This project will **not** be using:
+
+- Booatrap: Due to the JavaScript overhead that can cause unintended complications when using components, Bulma will be used instead which only provides CSS resources
 
 ## User Stories
 
