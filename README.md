@@ -4,9 +4,28 @@
 
 Project is being designed after the web-based project challenge [Front End Libraries Projects - Build a Markdown Previewer on freeCodeCamp](https://learn.freecodecamp.org/front-end-libraries/front-end-libraries-projects/build-a-markdown-previewer/). This project will use a Test Driven Development approach with feature tests being written _before_ code and then code is written to _satisfy_ failing tests.
 
+### Technology Stack
+
+This project will be using the following technology resources:
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5): Language for communicating with browser
+- [Bulma](https://bulma.io/): Provide application design building blocks
+- [SASS](https://sass-lang.com/): Customize Bulma build
+- [React](https://reactjs.org/): Handle application rendering
+- [ECMAScript](https://flaviocopes.com/ecmascript/): Provide easier-to-read intra-language for React components
+- [Redux](https://redux.js.org/): Handle React state
+- [Redux-Saga](https://redux-saga.js.org/): Handle Redux thread processes asynchronously
+- [Jest](https://jestjs.io/docs/en/tutorial-react): Execute and report automated tests for build
+- [Enzyme](https://airbnb.io/enzyme/): Running isolated tests on components without needing to run the entire application or back-end
+
+This project will **not** be using:
+
+- Bootstrap: Due to the JavaScript overhead that can cause unintended complications when using components, Bulma will be used instead which only provides CSS resources
+
 **Objective:** Build an app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/GrZVVO.
-Fulfill the below user stories and get all of the tests to pass. Give it your own personal style.
-You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery to complete this project. You should use a frontend framework (like React for example) because this section is about learning frontend frameworks. Additional technologies not listed above are not recommended and using them is at your own risk. We are looking at supporting other frontend frameworks like Angular and Vue, but they are not currently supported. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
+  *Fulfill the below user stories and get all of the tests to pass. Give it your own personal style.*
+
+  *You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery to complete this project. You should use a frontend framework (like React for example) because this section is about learning frontend frameworks. Additional technologies not listed above are not recommended and using them is at your own risk. We are looking at supporting other frontend frameworks like Angular and Vue, but they are not currently supported. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!*
 
 ## User Stories
 
